@@ -43,9 +43,9 @@
     
 }
 
-@media only screen and (min-width: 1008px) {
+@media only screen and (min-width: 1310px) {
 .cabecalho {
-    margin: 24px 80px 0px 80px;
+    margin: 8px 80px 0px 80px;
 }
 
 .navegacao {
@@ -58,15 +58,17 @@
 }
 
 .imagem {
-    width: 0px;
+    width: 32px;
 }
 
 .linkNavegacao {
     padding: 10px 10px;
+    font-size: medium;
 }
 
 .linkDestacado {
     text-decoration: underline;
+    font-size: medium;
 
 }
 
@@ -74,3 +76,4 @@
     display: none;
 }
 }
+

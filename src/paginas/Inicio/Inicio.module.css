@@ -40,14 +40,17 @@
 }
 
 
-@media only screen and (min-width: 1008px){
-    .container {
+
+@media only screen and (min-width: 1310px){
+
+.container {
     background-image: url('../../img/Frame20.png');
     background-repeat: no-repeat;
     background-position: right top;
-    margin: 20px 80px;
-    height: 40em;
-    background-size: 44em;
+    background-size:35em;
+    margin: 50px 90px;
+    max-height: 100%;
+    height: 100%;
 }
 
 .imagem1 {
@@ -56,54 +59,63 @@
 
 .container__texto {
     width: 410px;
-    padding-top: 60px;
     font-family: 'Sora', sans-serif;    
+    width: 600px;
+    padding-top: 10px;  
 }
 
 .container__titulo {
-    font-size: 32px;
+    font-size: xx-large;
+}
+
+.container__paragrafo {
+    font-size: medium;
 }
 
 .sociais {
     display: block;
-    margin: 30px 0px;
+    margin: 60px 0px 0px 0px;
 }
+
 
 .desenvolvedor {
     font-family: 'Rubik Doodle Shadow', sans-serif;
+    font-size:xx-large;
     font-weight: 800;
     color: rgb(0, 0, 0);
 }
 
+
 }
 
-
-@media only screen and (min-width: 1310px){
-
-.container {
-    margin: 50px 80px;
-    background-size: 55em;
+@media only screen and (min-width: 1900px) {
+   .container {
+    background-image: url('../../img/Frame20.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size:55em;
+    margin: 50px 90px;
+    max-width: 100%;
+    max-height: 100%;
+    height: 70vh;
 }
 
-
-.container__texto {
-    width: 600px;
-    padding-top: 90px;  
+.sociais {
+    display: block;
+    margin: 150px 0px 0px 0px;
 }
 
 .container__titulo {
     font-size: 42px;
 }
 
-.sociais {
-    margin: 75px 0px;
+.container__paragrafo {
+    font-size: medium;
+    margin-top: 20px;
 }
-
 
 .desenvolvedor {
-    font-family: 'Rubik Doodle Shadow', sans-serif;
-    font-size: 56px;
+    font-size:42px;
+
 }
-
-
 }
