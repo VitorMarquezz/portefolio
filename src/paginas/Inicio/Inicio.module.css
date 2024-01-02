@@ -1,18 +1,16 @@
 .container {
     margin: 0px 16px;
-
+    max-width: 100%;
     
 }
 
 .imagem1 {
-    width: 28em;
-    position: relative;
-    left: -50px;
-    margin: 40px 0 15px 0;
+    width: 90%;
+    margin:2em 3em 0 0;
 }
 
 .container__texto {
-    width: 410px;
+    width: 100%;
     padding-top: 10px;
     font-family: 'Sora', sans-serif;   
 }
@@ -26,7 +24,7 @@
 .container__paragrafo {
     margin-top: 10px;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
     opacity: 0.8;
 }
 
@@ -34,7 +32,7 @@
     display: flex;
     justify-content: center;
     gap: 30px;
-    margin-top: 20px;
+    margin: 1em 0;
 }
 
 .sociais__link {
