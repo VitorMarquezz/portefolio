@@ -3,7 +3,7 @@ import Header from "./components/header";
 import Inicio from "./paginas/Inicio";
 import Habilidades from "./paginas/habilidades";
 import Projetos from "./paginas/projetos";
-import Rodape from "./components/rodape";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
           <Route path="projetos" element={<Projetos />} />
           <Route path="*" element="Pagina não encontrada" />
         </Routes>
-        <Rodape/>
+        <Footer/>
       </BrowserRouter>
     </div>
   );
