@@ -46,9 +46,6 @@ export default function Inicio() {
           </div>
         </div>
       </div>
-      <div>
-        <Footer/>
-      </div>
     </main>
   );
 }
