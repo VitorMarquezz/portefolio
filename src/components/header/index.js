@@ -1,28 +1,33 @@
 import styles from "./Header.module.css";
 import logo from "../../img/logo1.png";
 import { Link, useLocation } from "react-router-dom";
-import imagem2 from "../../img/material-symbols_menu.png";
 
 export default function Header() {
+
+  
+
   return (
     <header className={styles.cabecalho}>
       <div className={styles.logo}>
-        <Link to={"/"}>
-          <img src={logo} className={styles.imagem} alt="logo" />
-        </Link>
         <Link
-          className={`${styles.linkNavegacao} ${
+          className={`${styles.imgNome} ${styles.linkNavegacao} ${
+            useLocation().pathname === "/" ? styles.linkDestacado : ""
+          }`}
+          to={"/"}
+        >
+          <img src={logo} className={styles.imagem} alt="logo" />
+          <p className={styles.nome}>Vitor Marquez</p>
+        </Link>
+      </div>
+      <nav className={styles.navegacao}>
+        <Link
+          className={`${styles.inicio} ${styles.linkNavegacao} ${
             useLocation().pathname === "/" ? styles.linkDestacado : ""
           } `}
           to={"/"}
         >
-          Vitor Marquez
+          início
         </Link>
-      </div>
-      <div className={styles.menu}>
-        <img className={styles.imagem2} alt="imagem2 menu" src={imagem2} />
-      </div>
-      <nav className={styles.navegacao}>
         <Link
           className={`${styles.linkNavegacao} ${
             useLocation().pathname === "/habilidades"

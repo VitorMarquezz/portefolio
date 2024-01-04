@@ -3,7 +3,7 @@ import github from "../../img/icons8-github.svg";
 import linkedin from "../../img/icons8-linkedin.svg";
 import imagem1 from "../../img/Frame20.png";
 import { Link } from "react-router-dom";
-import Footer from "../../components/footer";
+
 
 export default function Inicio() {
   return (
@@ -17,8 +17,7 @@ export default function Inicio() {
         <div className={styles.container__texto}>
           <h1 className={styles.container__titulo}>
             Olá, sou o <span style={{ fontWeight: "900" }}>Vitor Marquez.</span>{" "}
-            Iniciando minha carreira como{" "}
-            <span className={styles.desenvolvedor}>desenvolvedor</span>
+            Iniciando minha carreira como desenvolvedor
             <span style={{ fontWeight: "800" }}> Frontend</span> :)
           </h1>
           <p className={styles.container__paragrafo}>
