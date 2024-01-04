@@ -1,12 +1,13 @@
 .container {
+    padding: 1rem 0;
+    width: 100%;
     background-color: black;
     color: white;
-    padding: 1rem 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    display: block;
     width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 2em;
     
     
 }
@@ -26,15 +27,3 @@
     opacity: 0.5;
 }
 
-@media only screen and (min-width: 1310px) {
-
-.container{
-    background-color: black;
-    color: white;
-    display: block;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    height: 2em;
-}
-}

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import styles from "./Projetos.module.css";
+import Footer from "../../components/footer";
 
 export default function Projetos() {
   return (
@@ -15,6 +16,7 @@ export default function Projetos() {
 
         <p className={styles.projetoLegenda}>Calculadora React/js</p>
       </div>
+      <Footer />
     </div>
   );
 }

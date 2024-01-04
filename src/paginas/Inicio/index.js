@@ -3,6 +3,7 @@ import github from "../../img/icons8-github.svg";
 import linkedin from "../../img/icons8-linkedin.svg";
 import imagem1 from "../../img/Frame20.png";
 import { Link } from "react-router-dom";
+import Footer from "../../components/footer";
 
 
 export default function Inicio() {
@@ -45,6 +46,7 @@ export default function Inicio() {
           </div>
         </div>
       </div>
+      <Footer />
     </main>
   );
 }
