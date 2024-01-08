@@ -9,10 +9,10 @@ export default function Habilidades() {
     return (
       <main className={styles.container}>
         <div className={styles.images}>
-          <img className={styles.vector} src={vectorHTML} alt="vector javascript" />
-          <img className={styles.vector} src={vectorCSS} alt="vector javascript" />
-          <img className={styles.vector} src={vectorJS} alt="vector javascript" />
-          <img className={styles.vector} src={vectorREACTjs} alt="vector javascript" />
+          <img className={`${styles.vector} ${styles.vectorHtml}`} src={vectorHTML} alt="vector javascript" />
+          <img className={`${styles.vector} ${styles.vectorCss}`} src={vectorCSS} alt="vector javascript" />
+          <img className={`${styles.vector} ${styles.vectorJs}`} src={vectorJS} alt="vector javascript" />
+          <img className={`${styles.vector} ${styles.vectorReact}`} src={vectorREACTjs} alt="vector javascript" />
         </div>
         <Footer />
       </main>
