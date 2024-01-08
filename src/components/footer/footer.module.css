@@ -7,23 +7,28 @@
     width: 100%;
     position: absolute;
     bottom: 0;
-    height: 2em;
+    height: 1em;
     
     
 }
 
 .footer {
     text-align: center;
+    
 }
 
 .made{
     color: white;
     opacity: 0.8;
+    font-size: 12px;
+     margin-top: -5px;
 
 }
 
 .email {
     color: white;
     opacity: 0.5;
+    font-size: 12px;
+    margin-top: -2px;
 }
 
